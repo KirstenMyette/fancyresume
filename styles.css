@@ -1,3 +1,38 @@
-* {
-    box-sizing: border-box; }
-  
+.nav-wrapper {
+  background-color: black;
+  color: white; }
+
+.image-one {
+  background-image: url("images/darthmaul1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.image-two {
+  background-image: url("images/darthmaul2.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.image-three {
+  background-image: url("images/darthmaul2.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+li {
+  padding: 0;
+  margin-right: 1.5em;
+  margin-left: 1.5em; }
+
+.parallax-container {
+  height: 500px; }
+
+.section {
+  background-color: #ca0505; }
+
+h1 {
+  margin-left: 10%; 
+}
+
+p {
+  margin-left: 10%;
+}
+/*# sourceMappingURL=styles.css.map */
