@@ -2,6 +2,12 @@
 @import 'mixins';
 @import 'globals';
 
+body{
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+    font-size: 13px;
+  } 
+
 li {
     padding: 0;
     margin-right: 1.5em;
@@ -17,5 +23,20 @@ li {
 }
 
 h1 {
-    margin-left: 10%;
+    margin-left: 11%;
+}
+
+.containers {
+  background-color: #ca0505; 
+  height: 350px;
+}
+
+#text{
+  margin-left: 4.5em;
+}
+
+.offset {
+  margin-top: 5%;
+  background-color: #E78383;
+  transform: translateX(-20%);
 }
