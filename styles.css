@@ -13,14 +13,13 @@
   background-repeat: no-repeat; }
 
 .image-three {
-  background-image: url("images/darthmaul2.png");
+  background-image: url("images/darthmaul3.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
 body {
   margin-left: 8% !important;
-  margin-right: 8% !important;
-  font-size: 13px; }
+  margin-right: 8% !important; }
 
 li {
   padding: 0;
@@ -28,17 +27,20 @@ li {
   margin-left: 1.5em; }
 
 .parallax-container {
-  height: 450px; }
+  height: 40em; }
 
 .section {
   background-color: #ca0505; }
 
 h1 {
-  margin-left: 11%; }
+  margin-left: 10%; }
 
-.containers {
+.container {
   background-color: #ca0505;
-  height: 25%; }
+  color: white;
+  margin: 0 auto;
+  height: 40em;
+  width: 100%; }
 
 #text {
   margin-left: 4.5em; }
@@ -46,43 +48,70 @@ h1 {
 .offset {
   margin-top: 5%;
   background-color: #E78383;
-  transform: translateX(-20%); 
-}
-  
-.containers2 {
-  background-color: #ca0505;
-  height: 500px; 
- 
-}
+  transform: translateX(-20%); }
 
 .header {
-  font-size: 19px;
   font-weight: bold;
-  border-bottom: 3px solid black;
-  margin-left: 4.5em;
-  margin-right: 4.5em;
-}
+  font-size: 19px !important;
+  border-bottom: 4px solid black;
+  margin: 0 3.4em; }
 
 .main {
-  margin-left: 6.5em;
-  margin-right: 5.5em;
-}
+  margin-left: 4.4em;
+  margin-right: 4.4em; }
 
-.image-eight {
-  background-image: url("images/darthmaul8.jpg");
-  background-size: ;
-  background-repeat: no-repeat;
-}
+.col {
+  height: 10em;
+  width: 15em; }
 
-.image-nine {
-  background-image: url("images/darthmaul9.jpg");
+.row {
+  padding: 0 0;
+  margin: 0 0; }
+
+.col.sm12.m6.l4.pic {
   background-size: cover;
   background-repeat: no-repeat;
-}
+  background-position: center; }
 
-.image-ten {
-  background-image: url("images/darthmaul910.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+.pic {
+  height: 20em;
+  width: 20em; }
+
+/*Contact Box*/
+.contact .header2 {
+  padding: 0.5em 0;
+  text-align: left; }
+
+.contact {
+  padding: 2em 3em; }
+
+.contact form label {
+  color: white;
+  margin: 0 auto; }
+
+.contact form label,
+.contact form input,
+.contact form textarea {
+  width: 80%;
+  display: block; }
+
+.contact form input,
+.contact form textarea {
+  margin: 0 auto 2em; }
+
+input, button {
+  height: 3em; }
+
+input, button, textarea {
+  border: none;
+  border-radius: 4px; }
+
+.contact form button {
+  background-color: white;
+  color: #a3c5cf;
+  width: 80%; }
+
+.contact form .button-container {
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
